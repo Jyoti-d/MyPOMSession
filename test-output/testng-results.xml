@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="5" total="7" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="476398" started-at="2020-01-31T15:19:21Z" finished-at="2020-01-31T15:27:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="476398" started-at="2020-01-31T15:19:21Z" finished-at="2020-01-31T15:27:18Z">
+      <class name="com.qa.boast.pageTest.ReportTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="setUp" is-config="true" duration-ms="184568" started-at="2020-01-31T15:19:21Z" finished-at="2020-01-31T15:22:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lunchReportPage()[pri:0, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="lunchReportPage" is-config="true" duration-ms="9776" started-at="2020-01-31T15:22:26Z" finished-at="2020-01-31T15:22:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchReportPage -->
+        <test-method status="PASS" signature="addWorksapceUsersTest()[pri:4, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="addWorksapceUsersTest" duration-ms="38707" started-at="2020-01-31T15:22:36Z" finished-at="2020-01-31T15:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWorksapceUsersTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="tearDown" is-config="true" duration-ms="995" started-at="2020-01-31T15:23:15Z" finished-at="2020-01-31T15:23:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="setUp" is-config="true" duration-ms="192788" started-at="2020-01-31T15:23:16Z" finished-at="2020-01-31T15:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="lunchReportPage()[pri:0, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="lunchReportPage" is-config="true" duration-ms="8771" started-at="2020-01-31T15:26:28Z" finished-at="2020-01-31T15:26:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchReportPage -->
+        <test-method status="FAIL" signature="getPopupWindowOnUsersPage()[pri:7, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="getPopupWindowOnUsersPage" duration-ms="38455" started-at="2020-01-31T15:26:37Z" finished-at="2020-01-31T15:27:16Z">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.0.116', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d7f410a32f327d7c3072780adf131e3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DELL', ip: '192.168.0.116', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\Kamal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6d7f410a32f327d7c3072780adf131e3
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:932)
+at com.qa.boast.util.ReusableMethods.getJavaScriptPopUp(ReusableMethods.java:155)
+at com.qa.boast.pages.ReportPage.getPopUpWindowOnUsers(ReportPage.java:186)
+at com.qa.boast.pageTest.ReportTest.getPopupWindowOnUsersPage(ReportTest.java:47)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPopupWindowOnUsersPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.boast.pageTest.ReportTest@eec5a4a]" name="tearDown" is-config="true" duration-ms="2224" started-at="2020-01-31T15:27:16Z" finished-at="2020-01-31T15:27:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.boast.pageTest.ReportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

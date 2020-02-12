@@ -1,0 +1,166 @@
+2020-01-31 20:49:22,868 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-01-31 20:49:22,886 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-01-31 20:49:22,890 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-01-31 20:49:22,917 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-01-31 20:49:22,920 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://chromedriver.storage.googleapis.com:443
+2020-01-31 20:49:23,104 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to chromedriver.storage.googleapis.com/172.217.163.80:443
+2020-01-31 20:49:23,105 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to chromedriver.storage.googleapis.com/172.217.163.80:443 with timeout 0
+2020-01-31 20:49:23,325 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-01-31 20:49:23,326 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-01-31 20:49:23,327 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-01-31 20:49:23,825 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-01-31 20:49:23,826 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-01-31 20:49:23,826 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-01-31 20:49:23,827 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=*.storage.googleapis.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-01-31 20:49:23,829 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [*.storage.googleapis.com, *.appspot.com.storage.googleapis.com, *.commondatastorage.googleapis.com, *.content-storage-download.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage.googleapis.com, *.googleapis.com, *.storage-download.googleapis.com, *.storage-upload.googleapis.com, *.storage.select.googleapis.com, commondatastorage.googleapis.com, storage.googleapis.com, storage.select.googleapis.com, unfiltered.news]
+2020-01-31 20:49:23,830 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-01-31 20:49:23,835 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.116:60354<->172.217.163.80:443
+2020-01-31 20:49:23,836 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+2020-01-31 20:49:23,837 DEBUG [main] MainClientExec:256 - Executing request GET /LATEST_RELEASE HTTP/1.1
+2020-01-31 20:49:23,838 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-01-31 20:49:23,842 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-01-31 20:49:23,847 DEBUG [main] headers:133 - http-outgoing-0 >> GET /LATEST_RELEASE HTTP/1.1
+2020-01-31 20:49:23,848 DEBUG [main] headers:136 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2020-01-31 20:49:23,848 DEBUG [main] headers:136 - http-outgoing-0 >> Connection: keep-alive
+2020-01-31 20:49:23,849 DEBUG [main] headers:136 - http-outgoing-0 >> Host: chromedriver.storage.googleapis.com
+2020-01-31 20:49:23,849 DEBUG [main] headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-01-31 20:49:23,850 DEBUG [main] wire:73 - http-outgoing-0 >> "GET /LATEST_RELEASE HTTP/1.1[\r][\n]"
+2020-01-31 20:49:23,851 DEBUG [main] wire:73 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2020-01-31 20:49:23,853 DEBUG [main] wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2020-01-31 20:49:23,854 DEBUG [main] wire:73 - http-outgoing-0 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+2020-01-31 20:49:23,854 DEBUG [main] wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-31 20:49:23,855 DEBUG [main] wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-01-31 20:49:23,874 DEBUG [main] wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-31 20:49:23,875 DEBUG [main] wire:73 - http-outgoing-0 << "X-GUploader-UploadID: AEnB2UpRdqDgVFpTIQDIEeEMEn0lb2EPkvVrNSvicF-gHz0N97grrKIQRmquRj1MIwA86ijM3WfFX7RVeljk6dO20RkJFWk28Q[\r][\n]"
+2020-01-31 20:49:23,876 DEBUG [main] wire:73 - http-outgoing-0 << "Expires: Fri, 31 Jan 2020 16:00:40 GMT[\r][\n]"
+2020-01-31 20:49:23,877 DEBUG [main] wire:73 - http-outgoing-0 << "Date: Fri, 31 Jan 2020 15:00:40 GMT[\r][\n]"
+2020-01-31 20:49:23,877 DEBUG [main] wire:73 - http-outgoing-0 << "Last-Modified: Tue, 17 Dec 2019 17:28:59 GMT[\r][\n]"
+2020-01-31 20:49:23,878 DEBUG [main] wire:73 - http-outgoing-0 << "ETag: "6dbe8fd284d1450dfe211ec372589603"[\r][\n]"
+2020-01-31 20:49:23,879 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-generation: 1576603739306622[\r][\n]"
+2020-01-31 20:49:23,880 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-metageneration: 1[\r][\n]"
+2020-01-31 20:49:23,880 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-stored-content-encoding: identity[\r][\n]"
+2020-01-31 20:49:23,880 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-stored-content-length: 12[\r][\n]"
+2020-01-31 20:49:23,881 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Type: text/plain[\r][\n]"
+2020-01-31 20:49:23,882 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Language: en[\r][\n]"
+2020-01-31 20:49:23,882 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-hash: crc32c=le7mDg==[\r][\n]"
+2020-01-31 20:49:23,882 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-hash: md5=bb6P0oTRRQ3+IR7DcliWAw==[\r][\n]"
+2020-01-31 20:49:23,882 DEBUG [main] wire:73 - http-outgoing-0 << "x-goog-storage-class: STANDARD[\r][\n]"
+2020-01-31 20:49:23,883 DEBUG [main] wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2020-01-31 20:49:23,883 DEBUG [main] wire:73 - http-outgoing-0 << "Content-Length: 12[\r][\n]"
+2020-01-31 20:49:23,883 DEBUG [main] wire:73 - http-outgoing-0 << "Server: UploadServer[\r][\n]"
+2020-01-31 20:49:23,884 DEBUG [main] wire:73 - http-outgoing-0 << "Cache-Control: public, max-age=3600[\r][\n]"
+2020-01-31 20:49:23,884 DEBUG [main] wire:73 - http-outgoing-0 << "Age: 1123[\r][\n]"
+2020-01-31 20:49:23,884 DEBUG [main] wire:73 - http-outgoing-0 << "Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000[\r][\n]"
+2020-01-31 20:49:23,893 DEBUG [main] wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-01-31 20:49:23,894 DEBUG [main] wire:87 - http-outgoing-0 << "79.0.3945.36"
+2020-01-31 20:49:23,900 DEBUG [main] headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-01-31 20:49:23,902 DEBUG [main] headers:125 - http-outgoing-0 << X-GUploader-UploadID: AEnB2UpRdqDgVFpTIQDIEeEMEn0lb2EPkvVrNSvicF-gHz0N97grrKIQRmquRj1MIwA86ijM3WfFX7RVeljk6dO20RkJFWk28Q
+2020-01-31 20:49:23,902 DEBUG [main] headers:125 - http-outgoing-0 << Expires: Fri, 31 Jan 2020 16:00:40 GMT
+2020-01-31 20:49:23,902 DEBUG [main] headers:125 - http-outgoing-0 << Date: Fri, 31 Jan 2020 15:00:40 GMT
+2020-01-31 20:49:23,903 DEBUG [main] headers:125 - http-outgoing-0 << Last-Modified: Tue, 17 Dec 2019 17:28:59 GMT
+2020-01-31 20:49:23,903 DEBUG [main] headers:125 - http-outgoing-0 << ETag: "6dbe8fd284d1450dfe211ec372589603"
+2020-01-31 20:49:23,903 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-generation: 1576603739306622
+2020-01-31 20:49:23,904 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-metageneration: 1
+2020-01-31 20:49:23,904 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-stored-content-encoding: identity
+2020-01-31 20:49:23,904 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-stored-content-length: 12
+2020-01-31 20:49:23,904 DEBUG [main] headers:125 - http-outgoing-0 << Content-Type: text/plain
+2020-01-31 20:49:23,905 DEBUG [main] headers:125 - http-outgoing-0 << Content-Language: en
+2020-01-31 20:49:23,905 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-hash: crc32c=le7mDg==
+2020-01-31 20:49:23,905 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-hash: md5=bb6P0oTRRQ3+IR7DcliWAw==
+2020-01-31 20:49:23,906 DEBUG [main] headers:125 - http-outgoing-0 << x-goog-storage-class: STANDARD
+2020-01-31 20:49:23,906 DEBUG [main] headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2020-01-31 20:49:23,906 DEBUG [main] headers:125 - http-outgoing-0 << Content-Length: 12
+2020-01-31 20:49:23,906 DEBUG [main] headers:125 - http-outgoing-0 << Server: UploadServer
+2020-01-31 20:49:23,907 DEBUG [main] headers:125 - http-outgoing-0 << Cache-Control: public, max-age=3600
+2020-01-31 20:49:23,907 DEBUG [main] headers:125 - http-outgoing-0 << Age: 1123
+2020-01-31 20:49:23,907 DEBUG [main] headers:125 - http-outgoing-0 << Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+2020-01-31 20:49:23,916 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-01-31 20:49:23,927 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443] can be kept alive indefinitely
+2020-01-31 20:49:23,928 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-01-31 20:49:23,930 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-01-31 20:52:26,556  INFO [main] HomePage:39 - Click on Report Icon: >>>>>>>>>>>>>
+2020-01-31 20:52:36,377  INFO [main] ReportPage:56 - @@@@@@@@@@@ Click on Analytics power BI Configurationa Icon @@@@@@@@@@
+2020-01-31 20:52:42,656  INFO [main] ReportPage:100 - @@@@@@@@@ click on user Tabs @@@@@@@@@@@
+2020-01-31 20:53:16,080 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: standard
+2020-01-31 20:53:16,083 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2020-01-31 20:53:16,084 DEBUG [main] PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-01-31 20:53:16,089 DEBUG [main] PoolingHttpClientConnectionManager:309 - Connection leased: [id: 1][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-01-31 20:53:16,091 DEBUG [main] MainClientExec:235 - Opening connection {s}->https://chromedriver.storage.googleapis.com:443
+2020-01-31 20:53:16,098 DEBUG [main] DefaultHttpClientConnectionOperator:139 - Connecting to chromedriver.storage.googleapis.com/172.217.163.80:443
+2020-01-31 20:53:16,100 DEBUG [main] SSLConnectionSocketFactory:337 - Connecting socket to chromedriver.storage.googleapis.com/172.217.163.80:443 with timeout 0
+2020-01-31 20:53:16,123 DEBUG [main] SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2020-01-31 20:53:16,124 DEBUG [main] SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256]
+2020-01-31 20:53:16,124 DEBUG [main] SSLConnectionSocketFactory:395 - Starting handshake
+2020-01-31 20:53:16,236 DEBUG [main] SSLConnectionSocketFactory:425 - Secure session established
+2020-01-31 20:53:16,236 DEBUG [main] SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+2020-01-31 20:53:16,237 DEBUG [main] SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+2020-01-31 20:53:16,237 DEBUG [main] SSLConnectionSocketFactory:435 -  peer principal: CN=*.storage.googleapis.com, O=Google LLC, L=Mountain View, ST=California, C=US
+2020-01-31 20:53:16,238 DEBUG [main] SSLConnectionSocketFactory:444 -  peer alternative names: [*.storage.googleapis.com, *.appspot.com.storage.googleapis.com, *.commondatastorage.googleapis.com, *.content-storage-download.googleapis.com, *.content-storage-upload.googleapis.com, *.content-storage.googleapis.com, *.googleapis.com, *.storage-download.googleapis.com, *.storage-upload.googleapis.com, *.storage.select.googleapis.com, commondatastorage.googleapis.com, storage.googleapis.com, storage.select.googleapis.com, unfiltered.news]
+2020-01-31 20:53:16,238 DEBUG [main] SSLConnectionSocketFactory:448 -  issuer principal: CN=GTS CA 1O1, O=Google Trust Services, C=US
+2020-01-31 20:53:16,239 DEBUG [main] DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.116:60736<->172.217.163.80:443
+2020-01-31 20:53:16,239 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 30000
+2020-01-31 20:53:16,240 DEBUG [main] MainClientExec:256 - Executing request GET /LATEST_RELEASE HTTP/1.1
+2020-01-31 20:53:16,240 DEBUG [main] MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-01-31 20:53:16,241 DEBUG [main] MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-01-31 20:53:16,241 DEBUG [main] headers:133 - http-outgoing-1 >> GET /LATEST_RELEASE HTTP/1.1
+2020-01-31 20:53:16,242 DEBUG [main] headers:136 - http-outgoing-1 >> User-Agent: Mozilla/5.0
+2020-01-31 20:53:16,243 DEBUG [main] headers:136 - http-outgoing-1 >> Connection: keep-alive
+2020-01-31 20:53:16,244 DEBUG [main] headers:136 - http-outgoing-1 >> Host: chromedriver.storage.googleapis.com
+2020-01-31 20:53:16,245 DEBUG [main] headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-01-31 20:53:16,246 DEBUG [main] wire:73 - http-outgoing-1 >> "GET /LATEST_RELEASE HTTP/1.1[\r][\n]"
+2020-01-31 20:53:16,246 DEBUG [main] wire:73 - http-outgoing-1 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2020-01-31 20:53:16,246 DEBUG [main] wire:73 - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+2020-01-31 20:53:16,247 DEBUG [main] wire:73 - http-outgoing-1 >> "Host: chromedriver.storage.googleapis.com[\r][\n]"
+2020-01-31 20:53:16,247 DEBUG [main] wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-01-31 20:53:16,247 DEBUG [main] wire:73 - http-outgoing-1 >> "[\r][\n]"
+2020-01-31 20:53:16,265 DEBUG [main] wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2020-01-31 20:53:16,265 DEBUG [main] wire:73 - http-outgoing-1 << "X-GUploader-UploadID: AEnB2UpRdqDgVFpTIQDIEeEMEn0lb2EPkvVrNSvicF-gHz0N97grrKIQRmquRj1MIwA86ijM3WfFX7RVeljk6dO20RkJFWk28Q[\r][\n]"
+2020-01-31 20:53:16,266 DEBUG [main] wire:73 - http-outgoing-1 << "Expires: Fri, 31 Jan 2020 16:00:40 GMT[\r][\n]"
+2020-01-31 20:53:16,266 DEBUG [main] wire:73 - http-outgoing-1 << "Date: Fri, 31 Jan 2020 15:00:40 GMT[\r][\n]"
+2020-01-31 20:53:16,266 DEBUG [main] wire:73 - http-outgoing-1 << "Last-Modified: Tue, 17 Dec 2019 17:28:59 GMT[\r][\n]"
+2020-01-31 20:53:16,267 DEBUG [main] wire:73 - http-outgoing-1 << "ETag: "6dbe8fd284d1450dfe211ec372589603"[\r][\n]"
+2020-01-31 20:53:16,267 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-generation: 1576603739306622[\r][\n]"
+2020-01-31 20:53:16,268 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-metageneration: 1[\r][\n]"
+2020-01-31 20:53:16,269 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-stored-content-encoding: identity[\r][\n]"
+2020-01-31 20:53:16,270 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-stored-content-length: 12[\r][\n]"
+2020-01-31 20:53:16,271 DEBUG [main] wire:73 - http-outgoing-1 << "Content-Type: text/plain[\r][\n]"
+2020-01-31 20:53:16,271 DEBUG [main] wire:73 - http-outgoing-1 << "Content-Language: en[\r][\n]"
+2020-01-31 20:53:16,273 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-hash: crc32c=le7mDg==[\r][\n]"
+2020-01-31 20:53:16,273 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-hash: md5=bb6P0oTRRQ3+IR7DcliWAw==[\r][\n]"
+2020-01-31 20:53:16,274 DEBUG [main] wire:73 - http-outgoing-1 << "x-goog-storage-class: STANDARD[\r][\n]"
+2020-01-31 20:53:16,274 DEBUG [main] wire:73 - http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
+2020-01-31 20:53:16,274 DEBUG [main] wire:73 - http-outgoing-1 << "Content-Length: 12[\r][\n]"
+2020-01-31 20:53:16,275 DEBUG [main] wire:73 - http-outgoing-1 << "Server: UploadServer[\r][\n]"
+2020-01-31 20:53:16,275 DEBUG [main] wire:73 - http-outgoing-1 << "Cache-Control: public, max-age=3600[\r][\n]"
+2020-01-31 20:53:16,275 DEBUG [main] wire:73 - http-outgoing-1 << "Age: 1356[\r][\n]"
+2020-01-31 20:53:16,275 DEBUG [main] wire:73 - http-outgoing-1 << "Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000[\r][\n]"
+2020-01-31 20:53:16,276 DEBUG [main] wire:73 - http-outgoing-1 << "[\r][\n]"
+2020-01-31 20:53:16,276 DEBUG [main] wire:87 - http-outgoing-1 << "79.0.3945.36"
+2020-01-31 20:53:16,276 DEBUG [main] headers:122 - http-outgoing-1 << HTTP/1.1 200 OK
+2020-01-31 20:53:16,277 DEBUG [main] headers:125 - http-outgoing-1 << X-GUploader-UploadID: AEnB2UpRdqDgVFpTIQDIEeEMEn0lb2EPkvVrNSvicF-gHz0N97grrKIQRmquRj1MIwA86ijM3WfFX7RVeljk6dO20RkJFWk28Q
+2020-01-31 20:53:16,278 DEBUG [main] headers:125 - http-outgoing-1 << Expires: Fri, 31 Jan 2020 16:00:40 GMT
+2020-01-31 20:53:16,278 DEBUG [main] headers:125 - http-outgoing-1 << Date: Fri, 31 Jan 2020 15:00:40 GMT
+2020-01-31 20:53:16,278 DEBUG [main] headers:125 - http-outgoing-1 << Last-Modified: Tue, 17 Dec 2019 17:28:59 GMT
+2020-01-31 20:53:16,279 DEBUG [main] headers:125 - http-outgoing-1 << ETag: "6dbe8fd284d1450dfe211ec372589603"
+2020-01-31 20:53:16,279 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-generation: 1576603739306622
+2020-01-31 20:53:16,279 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-metageneration: 1
+2020-01-31 20:53:16,280 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-stored-content-encoding: identity
+2020-01-31 20:53:16,280 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-stored-content-length: 12
+2020-01-31 20:53:16,280 DEBUG [main] headers:125 - http-outgoing-1 << Content-Type: text/plain
+2020-01-31 20:53:16,281 DEBUG [main] headers:125 - http-outgoing-1 << Content-Language: en
+2020-01-31 20:53:16,283 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-hash: crc32c=le7mDg==
+2020-01-31 20:53:16,284 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-hash: md5=bb6P0oTRRQ3+IR7DcliWAw==
+2020-01-31 20:53:16,285 DEBUG [main] headers:125 - http-outgoing-1 << x-goog-storage-class: STANDARD
+2020-01-31 20:53:16,286 DEBUG [main] headers:125 - http-outgoing-1 << Accept-Ranges: bytes
+2020-01-31 20:53:16,286 DEBUG [main] headers:125 - http-outgoing-1 << Content-Length: 12
+2020-01-31 20:53:16,288 DEBUG [main] headers:125 - http-outgoing-1 << Server: UploadServer
+2020-01-31 20:53:16,288 DEBUG [main] headers:125 - http-outgoing-1 << Cache-Control: public, max-age=3600
+2020-01-31 20:53:16,289 DEBUG [main] headers:125 - http-outgoing-1 << Age: 1356
+2020-01-31 20:53:16,289 DEBUG [main] headers:125 - http-outgoing-1 << Alt-Svc: quic=":443"; ma=2592000; v="46,43",h3-Q050=":443"; ma=2592000,h3-Q049=":443"; ma=2592000,h3-Q048=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000
+2020-01-31 20:53:16,289 DEBUG [main] MainClientExec:285 - Connection can be kept alive indefinitely
+2020-01-31 20:53:16,291 DEBUG [main] PoolingHttpClientConnectionManager:341 - Connection [id: 1][route: {s}->https://chromedriver.storage.googleapis.com:443] can be kept alive indefinitely
+2020-01-31 20:53:16,292 DEBUG [main] DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 0
+2020-01-31 20:53:16,292 DEBUG [main] PoolingHttpClientConnectionManager:348 - Connection released: [id: 1][route: {s}->https://chromedriver.storage.googleapis.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-01-31 20:56:28,831  INFO [main] HomePage:39 - Click on Report Icon: >>>>>>>>>>>>>
+2020-01-31 20:56:37,606  INFO [main] ReportPage:56 - @@@@@@@@@@@ Click on Analytics power BI Configurationa Icon @@@@@@@@@@
+2020-01-31 20:56:43,868  INFO [main] ReportPage:100 - @@@@@@@@@ click on user Tabs @@@@@@@@@@@
